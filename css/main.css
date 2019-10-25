@@ -1,0 +1,11 @@
+html {
+
+}
+
+.current {
+  background-color: #b20953;
+}
+
+.nav li {
+  display: inline-block;
+}

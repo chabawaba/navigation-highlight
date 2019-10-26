@@ -16,12 +16,14 @@ img {
 }
 
 header {
-  background-color: `#ffe500;
+  background-color: #ffe500;
 }
 
 footer {
-    background-color: `#ffe500;
+    background-color: #ffe500;
     font-size: .75rem;
+    text-align: center;
+    margin: .3em;
 }
 
 h1, h2 {
@@ -39,6 +41,14 @@ h2 {
 }
 
 nav ul li {
-  color:
   border-radius: 4px;
+  background-color: #b2a212;
+  color: #fff;
+  border-color: #2f2d13;
+}
+
+a:hover {
+  background-color: #cc1465;
+  color: #fff;
+  border-color: #2f2d13;
 }

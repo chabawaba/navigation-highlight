@@ -13,10 +13,6 @@ html {
   background-color: #b20953;
 }
 
-.nav li {
-  display: inline-block;
-}
-
 body {
   line-height: 1.5;
   margin: 0;
@@ -26,6 +22,8 @@ body {
 img {
   width: 100%;
   display: block;
+  padding-left: .75em;
+  padding-right: .75em;
 }
 
 header {
@@ -36,10 +34,10 @@ header {
 
 footer {
   background-color: #ffe500;
-  font-size: .75rem;
+  font-size: 1rem;
   text-align: center;
   margin: 0;
-  padding: .7em;
+  padding: .75em;
 }
 
 h1, h2 {
@@ -57,30 +55,43 @@ h2 {
   font-size: 1.875rem;
 }
 
-nav ul li {
-  border-radius: 4px;
-  background-color: #b2a212;
-  color: #fff;
-  border-color: #2f2d13;
-  padding: .2em .5em .3em;
-  display: block;
-  text-decoration: none;
+li {
+  /* background-color: #b2a212; */
+  /* color: #fff; */
+  /* border-color: #2f2d13; */
+  display: inline-block;
+  font-size: 1.125rem;
 }
 
 a:hover {
   background-color: #cc1465;
   color: #fff;
-  border-color: #2f2d13;
+  border-color: #cc1465;
 }
 
 a {
   text-decoration: none;
+  background-color: #b2a212;
+  color: #fff;
+  border-color: #b2a212;
+  padding: .4em;
+  border-radius: 4px;
 }
 
 ul {
   margin: 0;
+  padding: 0;
 }
 
 em {
   font-weight: bold;
+}
+
+nav {
+  padding: .5em;
+  padding-top: .4em;
+}
+
+h2, p {
+  padding-left: .75em;
 }
